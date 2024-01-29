@@ -464,11 +464,11 @@ function OrionLib:MakeWindow(WindowConfig)
 	if WindowConfig.IntroEnabled == nil then
 		WindowConfig.IntroEnabled = true
 	end
-	WindowConfig.IntroText = WindowConfig.IntroText or "Hirimi Library"
+	WindowConfig.IntroText = WindowConfig.IntroText or "Memories Library"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
-	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://15573687847"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://15573687847"
+	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://16161703575"
+	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://16161703575"
 	OrionLib.Folder = WindowConfig.ConfigFolder
 	OrionLib.SaveCfg = WindowConfig.SaveConfig
 
